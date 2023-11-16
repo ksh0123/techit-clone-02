@@ -1,8 +1,23 @@
 import CloseIcon from "../icons/CloseIcon";
+import { useState, useEffect } from "react";
 
 const TopBanner = () => {
+  const [isClose, setIsClose] = useState(false);
+
+  const onClickClose = () => {
+    setIsClose(true);
+
+    localStorage.setItem("topBannerClose", "true");
+  };
+
+  useEffect(() => {
+    if (localStorage.getItem("topBannerClose") === "true") {
+      setIsClose(true);
+    }
+  }, []);
+
   return (
-    <div className="h-[42px] bg-purple-100">
+    <div className={`h-[42px] bg-purple-100 ${isClose && "hidden"}`}>
       <div className="max-w-screen-xl mx-auto px-6 flex justify-between">
         <div className="flex items-center">
           <span className="font-semibold">
@@ -14,7 +29,7 @@ const TopBanner = () => {
             alt="top_banner"
           />
         </div>
-        <button className="w-5">
+        <button className="w-5" onClick={onClickClose}>
           <CloseIcon />
         </button>
       </div>
