@@ -1,6 +1,7 @@
 import { useState } from "react";
 import TitleBar from "./TitleBar";
 import ScheduleMonth from "./ScheduleMonth";
+import ScheduleClass from "./ScheduleClass";
 
 const ScheduleSection = () => {
   const [isClass, setIsClass] = useState(true);
@@ -19,7 +20,7 @@ const ScheduleSection = () => {
         title="테킷 스쿨 일정 확인하기"
         desc="한 눈에 보는 테킷 스쿨 오픈 일정"
       />
-      <div className="h-[280px]">
+      <div className="">
         <div className="pt-10 flex text-xl border-b">
           <button
             onClick={onClickClass}
@@ -41,7 +42,7 @@ const ScheduleSection = () => {
           </button>
         </div>
         <div className="mt-6">
-          {isClass ? <div>클래스별 보기</div> : <ScheduleMonth />}
+          {isClass ? <ScheduleClass /> : <ScheduleMonth />}
         </div>
       </div>
     </section>
