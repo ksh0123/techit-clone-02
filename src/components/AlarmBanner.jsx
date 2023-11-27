@@ -3,7 +3,7 @@ const AlarmBanner = () => {
     <section className="mt-10 overflow-hidden bg-[#F0F4FA] md:mt-20">
       <div className="h-full">
         <div className="relative h-[206px] bg-center bg-cover max-w-7xl cursor-pointer px-4 md:mx-auto md:px-6">
-          <div className="absolute left-0 top-0 -z-10 h-full w-full">
+          <div className="absolute left-0 top-0 h-full w-full">
             <img
               src="./images/banner_1.webp"
               className="absolute top-0 w-full h-full object-cover"
