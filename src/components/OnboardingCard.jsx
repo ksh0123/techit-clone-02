@@ -12,6 +12,7 @@ const OnboardingCard = ({
         <img
           src={`./images/${image}.png`}
           className="w-full rounded-lg md:rounded-none lg:rounded-xl"
+          alt={title}
         />
         <div className="space-y-2">
           <div class="flex items-center gap-[6px]">
