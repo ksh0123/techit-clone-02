@@ -21,7 +21,7 @@ const ScheduleSection = () => {
         desc="한 눈에 보는 테킷 스쿨 오픈 일정"
       />
       <div className="">
-        <div className="pt-10 flex text-xl border-b">
+        <div className="pt-10 flex text-xl border-b text-neutral-500 font-light">
           <button
             onClick={onClickClass}
             className={`mr-6 pb-2 ${

@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Banner from "./components/Banner";
 import KdtSection from "./components/KdtSection";
 import ScheduleSection from "./components/ScheduleSection";
+import AlarmBanner from "./components/AlarmBanner";
+import OnboardingClass from "./components/OnboardingClass";
 
 const App = () => {
   return (
@@ -12,17 +14,8 @@ const App = () => {
       <Banner />
       <KdtSection />
       <ScheduleSection />
-      <div className="mt-20 bg-yellow-100 h-[206px]">Alarm Banner</div>
-      <section className="mt-20 bg-green-100 max-w-screen-xl mx-auto px-6">
-        <div className="bg-red-100 h-[64.5px]">Onboarding</div>
-        <div className="bg-purple-100 grid grid-cols-3 gap-6 justify-items-center">
-          <div className="bg-yellow-100 w-[397px] h-[316px]">Card</div>
-          <div className="bg-yellow-100 w-[397px] h-[316px]">Card</div>
-          <div className="bg-yellow-100 w-[397px] h-[316px]">Card</div>
-          <div className="bg-yellow-100 w-[397px] h-[316px]">Card</div>
-          <div className="bg-yellow-100 w-[397px] h-[316px]">Card</div>
-        </div>
-      </section>
+      <AlarmBanner />
+      <OnboardingClass />
       <section className="mt-20 bg-green-100 max-w-screen-xl mx-auto px-6">
         <div className="bg-red-100 h-[64.5px]">Education</div>
         <div className="bg-purple-100 grid grid-cols-2 gap-6 justify-items-center">

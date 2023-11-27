@@ -75,7 +75,7 @@ const Banner = () => {
       <div className="absolute w-[1280px] left-1/2 -translate-x-1/2 bottom-6">
         <div className="text-white w-fit bg-black bg-opacity-30 flex text-xs rounded-full gap-2 py-[5px] px-3">
           <div>
-            {page + 1}/{bannerData.length}
+            {page + 1} / {bannerData.length}
           </div>
           <button onClick={onClickPrev}>
             <PrevIcon />
