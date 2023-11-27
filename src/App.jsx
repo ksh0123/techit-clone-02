@@ -6,6 +6,7 @@ import ScheduleSection from "./components/ScheduleSection";
 import AlarmBanner from "./components/AlarmBanner";
 import OnboardingClass from "./components/OnboardingClass";
 import EducationSection from "./components/EducationSection";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -17,10 +18,8 @@ const App = () => {
       <ScheduleSection />
       <AlarmBanner />
       <OnboardingClass />
-      <EducationSection />s
-      <footer className="mt-40 max-w-screen-xl mx-auto bg-gray-100 h-[418px]">
-        Footer
-      </footer>
+      <EducationSection />
+      <Footer />
     </div>
   );
 };
