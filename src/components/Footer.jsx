@@ -5,12 +5,12 @@ const Footer = () => {
         <img
           src="https://techit.education/img/techit_by_likelion_logo.svg"
           alt="techit_logo"
-          className="w-[133px]"
+          className="w-[133px] cursor-pointer"
         />
         <div className="flex flex-row justify-between gap-28">
           <div>
             <h3 className="text-neutral-400 text-xs pb-3">모든 교육 경험</h3>
-            <ul className="list-none text-sm leading-8 font-semibold mb-2">
+            <ul className="list-none text-sm leading-8 font-semibold mb-2 cursor-pointer">
               <li>KDT 테킷 스쿨</li>
               <li>온보딩 트랙</li>
               <li>스타트업 스테이션</li>
@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
           <div>
             <h3 className="text-neutral-400 text-xs pb-3">회사 소개</h3>
-            <ul className="list-none text-sm leading-8 font-semibold mb-2">
+            <ul className="list-none text-sm leading-8 font-semibold mb-2 cursor-pointer">
               <li className="flex items-center gap-">
                 <span>LIKELION</span>
                 <svg
@@ -59,8 +59,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="mx-auto max-w-7xl mx-4 py-3 xl:py-4 flex flex-col items-right border-t border-neutral-300">
-        <div className="flex flex-row gap-3">
+      <div className="mx-auto max-w-7xl py-3 xl:py-4 flex flex-col items-right border-t border-neutral-300">
+        <div className="flex flex-row gap-3 cursor-pointer">
           <img
             src="https://techit.education/svg/icon_instagram.svg"
             alt="instagram"
@@ -82,7 +82,7 @@ const Footer = () => {
             alt="facebook"
           />
         </div>
-        <div className="flex flex-row items-center space-x-2 mt-5 text-neutral-500 text-xs font-semibold">
+        <div className="flex flex-row items-center space-x-2 mt-5 text-neutral-500 text-xs font-semibold cursor-pointer">
           <div className="list-none cursor-pointer">이용약관</div>
           <div className="h-1 w-1 rounded-full bg-neutral-500"></div>
           <div className="list-none cursor-pointer">개인정보처리방침</div>
@@ -90,27 +90,19 @@ const Footer = () => {
           <div className="list-none cursor-pointer">환불규정</div>
         </div>
         <div className="flex flex-row items-center gap-2 mt-3 text-neutral-500 text-xs">
-          <div className="list-none cursor-pointer">상호명: 멋쟁이사자처럼</div>
+          <div>상호명: 멋쟁이사자처럼</div>
           <div className="text-neutral-600 text-[11px]">|</div>
-          <div className="list-none cursor-pointer">대표: 이두희</div>
+          <div>대표: 이두희</div>
           <div className="text-neutral-600 text-[11px]">|</div>
-          <div className="list-none cursor-pointer">contact@likelion.net</div>
+          <div>contact@likelion.net</div>
           <div className="text-neutral-600 text-[11px]">|</div>
-          <div className="list-none cursor-pointer">
-            사업자 번호 : 264-88-01106
-          </div>
+          <div>사업자 번호 : 264-88-01106</div>
           <div className="text-neutral-600 text-[11px]">|</div>
-          <div className="list-none cursor-pointer">
-            통신판매업 신고번호 : 2019-서울강남-00774
-          </div>
+          <div>통신판매업 신고번호 : 2019-서울강남-00774</div>
         </div>
         <div className="flex flex-row items-center gap-2 mt-1 text-neutral-500 text-xs">
-          <div className="list-none cursor-pointer">
-            주소 : 서울 종로구 종로3길17, 광화문D타워 D1동 16층, 17층
-          </div>
-          <div className="list-none cursor-pointer">
-            Copyright © 2022 멋쟁이사자처럼 All rights reserved.
-          </div>
+          <div>주소 : 서울 종로구 종로3길17, 광화문D타워 D1동 16층, 17층</div>
+          <div>Copyright © 2022 멋쟁이사자처럼 All rights reserved.</div>
         </div>
       </div>
     </footer>

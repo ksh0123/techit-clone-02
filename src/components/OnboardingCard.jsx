@@ -8,7 +8,7 @@ const OnboardingCard = ({
 }) => {
   return (
     <div className="w-[397px] h-[316px] mb-14">
-      <div className="block space-y-4">
+      <div className="block space-y-4 cursor-pointer">
         <img
           src={`./images/${image}.png`}
           className="w-full rounded-lg md:rounded-none lg:rounded-xl"

@@ -1,6 +1,6 @@
 const KdtCard = ({ image, title, ing, desc, period }) => {
   return (
-    <div className="w-[290px] h-[416px]">
+    <div className="w-[290px] h-[416px] cursor-pointer">
       <div className="overflow-hidden rounded-lg">
         <img
           className="hover:scale-110 duration-300 rounded-lg"

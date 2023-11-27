@@ -57,7 +57,7 @@ const OnboardingClass = () => {
             </h2>
           </div>
           <div className="flex items-center">
-            <span className="mr-1 text-xs font-semibold md:text-sm">
+            <span className="mr-1 text-xs font-semibold md:text-sm cursor-pointer">
               자세히 보기
             </span>
             <svg

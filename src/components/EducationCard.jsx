@@ -1,6 +1,6 @@
 const EducationCard = ({ title, desc, image }) => {
   return (
-    <div className="w-[604px] h-[310px] relative lg:p-10">
+    <div className="w-[604px] h-[310px] relative lg:p-10 cursor-pointer">
       <div className="absolute left-0 top-0 h-full w-full">
         <img
           src={`./images/${image}.webp`}

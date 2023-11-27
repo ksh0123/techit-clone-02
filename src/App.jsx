@@ -7,6 +7,7 @@ import AlarmBanner from "./components/AlarmBanner";
 import OnboardingClass from "./components/OnboardingClass";
 import EducationSection from "./components/EducationSection";
 import Footer from "./components/Footer";
+import StickyButton from "./components/StickyButton";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <OnboardingClass />
       <EducationSection />
       <Footer />
+      <StickyButton />
     </div>
   );
 };

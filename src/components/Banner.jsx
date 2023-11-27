@@ -58,7 +58,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="relative">
+    <div className="relative cursor-pointer">
       <ul>
         <Slider
           ref={sliderRef}
